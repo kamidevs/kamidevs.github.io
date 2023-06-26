@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #F2F2F2;
+}
+
+.wrapper {
+    padding: 0 120px;
+}
+
+.section-1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading {
+    color: #404040;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 50px;
+    margin-bottom: 10px;
+    filter: drop-shadow(0px 8px 24px rgba(149, 157, 165, 0.2));
+    -webkit-filter: drop-shadow(0px 8px 24px rgba(149, 157, 165, 0.2));
+}
+.paragraph {
+    color: #404040;
+    font-family: 'roboto', sans-serif;
+    word-spacing: 4px;
+    line-height: 30px;
+    margin-bottom: 50px;
+    filter: drop-shadow(0px 8px 24px rgba(149, 157, 165, 0.2));
+    -webkit-filter: drop-shadow(0px 8px 24px rgba(149, 157, 165, 0.2));
+}
+.button {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    color: #404040;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: bolder;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all ease-in-out .2s;
+    -webkit-transition: all ease-in-out .2s;
+    -moz-transition: all ease-in-out .2s;
+    -ms-transition: all ease-in-out .2s;
+    -o-transition: all ease-in-out .2s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
